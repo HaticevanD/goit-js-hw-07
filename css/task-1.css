@@ -1,0 +1,37 @@
+.categories {
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6fe;
+  width: 376px;
+  border-radius: 8px;
+  color: #2e2f42;
+  margin-bottom: 24px;
+}
+.item h2 {
+  margin: 16px 0 0 16px;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+
+.inner-list {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.inner-list li {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding-left: 8px;
+  gap: 8px;
+}
