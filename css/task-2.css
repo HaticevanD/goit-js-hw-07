@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  max-width: 1128px;
+}
+
+.gallery li {
+  width: 360px;
+  flex: 0 0 auto;
+}
+
+.gallery img {
+  width: 100%;
+  display: block;
+  min-height: 250px;
+}
